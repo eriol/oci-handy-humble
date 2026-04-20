@@ -6,6 +6,7 @@ LABEL org.opencontainers.image.authors="Daniele Tricoli <eriol@mornie.org>" \
 RUN apt-get update && apt-get install -y --no-install-recommends \
     ament-cmake \
     ament-lint \
+    python3-serial \
     ros-humble-gazebo-ros \
     ros-humble-gazebo-ros-pkgs \
     ros-humble-joint-state-publisher \
